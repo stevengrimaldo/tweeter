@@ -1,0 +1,38 @@
+.tweet {
+  border: 1px solie grey;
+  border-top: 0 none;
+  padding: 8px 4px;
+  display: flex;
+}
+
+.image {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.content {
+  margin-left: 8px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.user {
+  font-size: 10px;
+  margin-left: 4px;
+  color: grey;
+}
+
+.tweet {
+  font-size: 14px;
+}

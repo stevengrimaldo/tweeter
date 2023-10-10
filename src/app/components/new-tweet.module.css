@@ -1,0 +1,38 @@
+.form {
+  border: 1px solid grey;
+  border-top: 0 none;
+}
+
+.image {
+  background-color: red;
+  height: 48px;
+  width: 48px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.field {
+  display: flex;
+  padding: 8px 4px;
+}
+
+.input {
+  border: 0 none;
+  background: inherit;
+  appearance: none;
+  flex: 1 1 100%;
+  outline: none;
+  margin-left: 2px;
+  font-size: 24px;
+  line-height: 2px;
+  padding: 6px;
+}
+
+.input::placeholder {
+  color: grey;
+}
